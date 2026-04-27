@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>子元素覆寫</title>
+</head>
+<body class="p-3">
+  <div class="flex bg-sky-100 gap-1 p-1 mb-2 items-center">
+    <div class="bg-sky-300 text-4xl p-4 self-auto">a</div>
+    <div class="bg-sky-400 text-6xl p-12">B</div>
+    <div class="bg-sky-500 text-2xl p-8">g</div>
+  </div>
+
+  <div class="flex bg-sky-100 gap-1 p-1 mb-2 items-center">
+    <div class="bg-sky-300 text-4xl p-4 self-start">a</div>
+    <div class="bg-sky-400 text-6xl p-12">B</div>
+    <div class="bg-sky-500 text-2xl p-8">g</div>
+  </div>
+
+  <div class="flex bg-sky-100 gap-1 p-1 mb-2 items-center">
+    <div class="bg-sky-300 text-4xl p-4 self-end">a</div>
+    <div class="bg-sky-400 text-6xl p-12">B</div>
+    <div class="bg-sky-500 text-2xl p-8">g</div>
+  </div>
+</body>
+</html>
